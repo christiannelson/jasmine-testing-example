@@ -4,6 +4,8 @@ Jasmine Testing Example
 A very simple example of using jasmine for JavaScript testing and a couple of
 tools that make test driven development easier.
 
+Hello world!
+
 First Time Setup
 ----------------
 
