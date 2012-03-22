@@ -64,5 +64,4 @@ Guard will monitor changes to the js or the tests. When a change is detected, th
 
 `guard`
 
-Make a change to the js or tests, watch guard do its thing. It'll notify via growl if it's installed. Press enter to
-manually kick off a test run.
+Make a change to the js or tests, watch guard do its thing. It'll notify via growl if it's installed. Press enter to manually kick off a test run.
