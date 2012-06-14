@@ -48,13 +48,14 @@ First Time Setup
 Running the Tests from the Command Line
 ---------------------------------------
 
-`jasmine-headless-webkit`
+`bundle exec jasmine-headless-webkit`
 
 
 Running the Tests in the Browser
 --------------------------------
 
-TBD
+TBD: the jasmine gem only provide a rake task (no jasmine command line) and it pulls in countless unnecessary
+dependencies.
 
 
 Using Guard to Run Tests Whenever Something Changes
@@ -62,7 +63,7 @@ Using Guard to Run Tests Whenever Something Changes
 
 Guard will monitor changes to the js or the tests. When a change is detected, the tests are run automatically.
 
-`guard`
+`bundle exec guard`
 
 Make a change to the js or tests, watch guard do its thing. It'll notify via growl if it's installed. Press enter to
 manually kick off a test run.
